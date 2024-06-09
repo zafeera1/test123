@@ -1,0 +1,413 @@
+[
+    {
+      "title": "Spaghetti Carbonara",
+      "description": "Classic Italian pasta dish",
+      "ingredients": [
+        "spaghetti",
+        "eggs",
+        "pancetta",
+        "pecorino cheese",
+        "pepper"
+      ],
+      "instructions": "Cook spaghetti. Mix eggs and cheese. Cook pancetta. Combine all ingredients.",
+      "username": "john_doe"
+    },
+    {
+      "title": "Chicken Curry",
+      "description": "Spicy and flavorful chicken curry",
+      "ingredients": [
+        "chicken",
+        "curry powder",
+        "coconut milk",
+        "onion",
+        "garlic"
+      ],
+      "instructions": "Cook chicken. Add spices and coconut milk. Simmer until done.",
+      "username": "jane_smith"
+    },
+    {
+      "title": "Beef Tacos",
+      "description": "Tasty beef tacos with fresh toppings",
+      "ingredients": [
+        "ground beef",
+        "taco seasoning",
+        "tortillas",
+        "lettuce",
+        "tomato",
+        "cheese"
+      ],
+      "instructions": "Cook beef with seasoning. Serve in tortillas with toppings.",
+      "username": "bob_jones"
+    },
+    {
+      "title": "Veggie Stir-Fry",
+      "description": "Healthy and colorful vegetable stir-fry",
+      "ingredients": [
+        "broccoli",
+        "carrots",
+        "bell peppers",
+        "soy sauce",
+        "garlic"
+      ],
+      "instructions": "Stir-fry vegetables with garlic and soy sauce.",
+      "username": "alice_williams"
+    },
+    {
+      "title": "Pancakes",
+      "description": "Fluffy pancakes for a perfect breakfast",
+      "ingredients": ["flour", "milk", "eggs", "baking powder", "sugar"],
+      "instructions": "Mix ingredients. Cook on a griddle until golden brown.",
+      "username": "mike_brown"
+    },
+    {
+      "title": "Caesar Salad",
+      "description": "Crisp romaine lettuce with Caesar dressing",
+      "ingredients": [
+        "romaine lettuce",
+        "Caesar dressing",
+        "croutons",
+        "parmesan cheese"
+      ],
+      "instructions": "Toss lettuce with dressing, croutons, and cheese.",
+      "username": "lisa_clark"
+    },
+    {
+      "title": "Grilled Cheese Sandwich",
+      "description": "Classic grilled cheese sandwich",
+      "ingredients": ["bread", "cheese", "butter"],
+      "instructions": "Assemble sandwich with cheese between bread slices. Grill until golden brown.",
+      "username": "tom_davis"
+    },
+    {
+      "title": "Beef Stroganoff",
+      "description": "Creamy beef and mushroom dish",
+      "ingredients": [
+        "beef",
+        "mushrooms",
+        "onion",
+        "beef broth",
+        "sour cream",
+        "paprika"
+      ],
+      "instructions": "Sauté beef and onion. Add mushrooms, broth, and sour cream. Season with paprika.",
+      "username": "susan_miller"
+    },
+    {
+      "title": "Shrimp Scampi",
+      "description": "Garlicky shrimp pasta",
+      "ingredients": [
+        "shrimp",
+        "garlic",
+        "lemon",
+        "butter",
+        "parsley",
+        "linguine"
+      ],
+      "instructions": "Sauté shrimp and garlic in butter. Toss with cooked linguine, lemon juice, and parsley.",
+      "username": "chris_martin"
+    },
+    {
+      "title": "Caprese Salad",
+      "description": "Simple and fresh Italian salad",
+      "ingredients": [
+        "tomatoes",
+        "fresh mozzarella",
+        "basil",
+        "olive oil",
+        "balsamic vinegar"
+      ],
+      "instructions": "Layer sliced tomatoes, mozzarella, and basil. Drizzle with olive oil and balsamic vinegar.",
+      "username": "patrica_garcia"
+    },
+    {
+      "title": "Margarita Pizza",
+      "description": "Classic pizza topped with tomatoes, mozzarella, and basil",
+      "ingredients": [
+        "pizza dough",
+        "tomato sauce",
+        "fresh mozzarella",
+        "basil",
+        "olive oil"
+      ],
+      "instructions": "Top pizza dough with sauce, cheese, and basil. Drizzle with olive oil and bake.",
+      "username": "john_doe"
+    },
+    {
+      "title": "Beef Wellington",
+      "description": "Tender beef wrapped in puff pastry",
+      "ingredients": [
+        "beef tenderloin",
+        "puff pastry",
+        "mushrooms",
+        "prosciutto",
+        "duxelles",
+        "egg"
+      ],
+      "instructions": "Sear beef, wrap in mushroom mixture and prosciutto, then puff pastry. Bake until golden.",
+      "username": "jane_smith"
+    },
+    {
+      "title": "Tiramisu",
+      "description": "Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cream",
+      "ingredients": [
+        "ladyfingers",
+        "espresso",
+        "mascarpone cheese",
+        "eggs",
+        "sugar",
+        "cocoa powder"
+      ],
+      "instructions": "Dip ladyfingers in espresso. Layer with mascarpone mixture. Dust with cocoa powder.",
+      "username": "bob_jones"
+    },
+    {
+      "title": "Lemon Garlic Roasted Chicken",
+      "description": "Juicy roasted chicken with a bright lemon garlic flavor",
+      "ingredients": [
+        "whole chicken",
+        "lemon",
+        "garlic",
+        "rosemary",
+        "olive oil",
+        "salt",
+        "pepper"
+      ],
+      "instructions": "Rub chicken with lemon, garlic, and herbs. Roast until golden and cooked through.",
+      "username": "alice_williams"
+    },
+    {
+      "title": "Vegetarian Chili",
+      "description": "Hearty and flavorful vegetarian chili",
+      "ingredients": [
+        "beans",
+        "bell peppers",
+        "onion",
+        "tomatoes",
+        "corn",
+        "chili powder",
+        "cumin"
+      ],
+      "instructions": "Sauté vegetables, add beans, tomatoes, and spices. Simmer until flavors meld.",
+      "username": "mike_brown"
+    },
+    {
+      "title": "Ratatouille",
+      "description": "Classic French vegetable stew",
+      "ingredients": [
+        "eggplant",
+        "zucchini",
+        "bell peppers",
+        "tomatoes",
+        "onion",
+        "garlic",
+        "herbs de Provence"
+      ],
+      "instructions": "Layer vegetables in baking dish with herbs. Bake until tender and flavorful.",
+      "username": "lisa_clark"
+    },
+    {
+      "title": "Lobster Bisque",
+      "description": "Rich and creamy lobster soup",
+      "ingredients": [
+        "lobster",
+        "onion",
+        "carrot",
+        "celery",
+        "tomato paste",
+        "cream",
+        "brandy"
+      ],
+      "instructions": "Sauté vegetables, add lobster shells, tomato paste, and broth. Simmer, blend, and add cream and brandy.",
+      "username": "tom_davis"
+    },
+    {
+      "title": "Beef and Broccoli Stir-Fry",
+      "description": "Savory beef and broccoli stir-fry with a flavorful sauce",
+      "ingredients": [
+        "beef sirloin",
+        "broccoli",
+        "soy sauce",
+        "ginger",
+        "garlic",
+        "brown sugar",
+        "cornstarch"
+      ],
+      "instructions": "Sear beef, stir-fry with broccoli and sauce until thickened.",
+      "username": "susan_miller"
+    },
+    {
+      "title": "Chicken Alfredo",
+      "description": "Creamy chicken and pasta dish with a cheesy Alfredo sauce",
+      "ingredients": [
+        "chicken breast",
+        "fettuccine pasta",
+        "heavy cream",
+        "parmesan cheese",
+        "butter",
+        "garlic"
+      ],
+      "instructions": "Sauté chicken, cook pasta. Make sauce with cream, cheese, and garlic. Combine all.",
+      "username": "chris_martin"
+    },
+    {
+      "title": "Sushi Rolls",
+      "description": "Homemade sushi rolls with fresh fish and vegetables",
+      "ingredients": [
+        "sushi rice",
+        "nori seaweed",
+        "sashimi-grade fish",
+        "cucumber",
+        "avocado",
+        "soy sauce",
+        "wasabi"
+      ],
+      "instructions": "Prepare sushi rice, assemble rolls with fish and vegetables. Cut and serve with soy sauce and wasabi.",
+      "username": "patrica_garcia"
+    },
+    {
+      "title": "Mushroom Risotto",
+      "description": "Creamy and flavorful mushroom risotto",
+      "ingredients": [
+        "arborio rice",
+        "mushrooms",
+        "onion",
+        "garlic",
+        "white wine",
+        "parmesan cheese",
+        "chicken broth"
+      ],
+      "instructions": "Sauté mushrooms, onion, garlic. Add rice, wine, broth. Stir until creamy. Finish with cheese.",
+      "username": "john_doe"
+    },
+  
+    {
+      "title": "Beef Bourguignon",
+      "description": "Classic French beef stew cooked in red wine",
+      "ingredients": [
+        "beef chuck",
+        "red wine",
+        "onion",
+        "carrots",
+        "garlic",
+        "mushrooms",
+        "beef broth"
+      ],
+      "instructions": "Sear beef, cook vegetables, deglaze with wine, simmer in broth until tender.",
+      "username": "jane_smith"
+    },
+    {
+      "title": "Chicken Parmesan",
+      "description": "Crispy breaded chicken topped with marinara sauce and melted cheese",
+      "ingredients": [
+        "chicken breasts",
+        "breadcrumbs",
+        "eggs",
+        "marinara sauce",
+        "mozzarella cheese",
+        "parmesan cheese"
+      ],
+      "instructions": "Coat chicken in breadcrumbs, fry, top with sauce and cheese, bake until bubbly.",
+      "username": "bob_jones"
+    },
+    {
+      "title": "Pad Thai",
+      "description": "Popular Thai stir-fried noodle dish with a sweet and tangy sauce",
+      "ingredients": [
+        "rice noodles",
+        "shrimp",
+        "tofu",
+        "bean sprouts",
+        "peanuts",
+        "tamarind paste",
+        "fish sauce"
+      ],
+      "instructions": "Stir-fry noodles, shrimp, tofu, and sauce. Add bean sprouts, peanuts, and lime before serving.",
+      "username": "alice_williams"
+    },
+    {
+      "title": "Homemade Macaroni and Cheese",
+      "description": "Comforting and creamy macaroni and cheese",
+      "ingredients": [
+        "elbow macaroni",
+        "cheddar cheese",
+        "milk",
+        "butter",
+        "flour",
+        "breadcrumbs"
+      ],
+      "instructions": "Cook pasta. Make cheese sauce with milk, cheese, and roux. Bake with breadcrumbs on top.",
+      "username": "mike_brown"
+    },
+    {
+      "title": "Pulled Pork Sandwiches",
+      "description": "Slow-cooked, tender pulled pork piled high on a bun",
+      "ingredients": [
+        "pork shoulder",
+        "barbecue sauce",
+        "buns",
+        "coleslaw",
+        "pickles"
+      ],
+      "instructions": "Season pork, slow-cook until tender, shred and mix with barbecue sauce. Serve on buns with coleslaw and pickles.",
+      "username": "lisa_clark"
+    },
+    {
+      "title": "Gnocchi with Pesto Sauce",
+      "description": "Soft potato dumplings with a fresh basil pesto sauce",
+      "ingredients": [
+        "gnocchi",
+        "basil",
+        "pine nuts",
+        "parmesan cheese",
+        "garlic",
+        "olive oil"
+      ],
+      "instructions": "Cook gnocchi. Blend basil, pine nuts, cheese, garlic, oil for pesto. Toss with gnocchi.",
+      "username": "tom_davis"
+    },
+    {
+      "title": "Coq au Vin",
+      "description": "Traditional French chicken braised in red wine with mushrooms and onions",
+      "ingredients": [
+        "chicken thighs",
+        "red wine",
+        "mushrooms",
+        "onion",
+        "bacon",
+        "chicken broth"
+      ],
+      "instructions": "Brown chicken, cook bacon, sauté vegetables, deglaze with wine, braise until tender.",
+      "username": "susan_miller"
+    },
+    {
+      "title": "Shakshuka",
+      "description": "Middle Eastern dish of poached eggs in a spicy tomato and pepper sauce",
+      "ingredients": [
+        "eggs",
+        "tomatoes",
+        "bell peppers",
+        "onion",
+        "garlic",
+        "cumin",
+        "paprika"
+      ],
+      "instructions": "Sauté vegetables, add spices and tomatoes, simmer, crack eggs into sauce, cook until set.",
+      "username": "chris_martin"
+    },
+    {
+      "title": "Lamb Biryani",
+      "description": "Fragrant and flavorful Indian rice dish with tender spiced lamb",
+      "ingredients": [
+        "lamb",
+        "basmati rice",
+        "yogurt",
+        "onion",
+        "garam masala",
+        "saffron",
+        "mint"
+      ],
+      "instructions": "Marinate lamb, cook with spices, layer with parboiled rice, cook until tender.",
+      "username": "patrica_garcia"
+    }
+  ]
+  

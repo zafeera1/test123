@@ -1,0 +1,63 @@
+[
+    {
+      "username": "john_doe",
+      "email": "john_doe@example.com",
+      "password": "password123",
+      "recipes": []
+    },
+    {
+      "username": "jane_smith",
+      "email": "jane_smith@example.com",
+      "password": "password123",
+      "recipes": []
+    },
+    {
+      "username": "bob_jones",
+      "email": "bob_jones@example.com",
+      "password": "password123",
+      "recipes": []
+    },
+    {
+      "username": "alice_williams",
+      "email": "alice_williams@example.com",
+      "password": "password123",
+      "recipes": []
+    },
+    {
+      "username": "mike_brown",
+      "email": "mike_brown@example.com",
+      "password": "password123",
+      "recipes": []
+    },
+    {
+      "username": "lisa_clark",
+      "email": "lisa_clark@example.com",
+      "password": "password123",
+      "recipes": []
+    },
+    {
+      "username": "tom_davis",
+      "email": "tom_davis@example.com",
+      "password": "password123",
+      "recipes": []
+    },
+    {
+      "username": "susan_miller",
+      "email": "susan_miller@example.com",
+      "password": "password123",
+      "recipes": []
+    },
+    {
+      "username": "chris_martin",
+      "email": "chris_martin@example.com",
+      "password": "password123",
+      "recipes": []
+    },
+    {
+      "username": "patricia_garcia",
+      "email": "patricia_garcia@example.com",
+      "password": "password123",
+      "recipes": []
+    }
+  ]
+  

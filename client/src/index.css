@@ -1,0 +1,374 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: rgb(166, 135, 79);
+}
+
+* {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(166, 135, 79);
+}
+
+.navbar {
+  display: flex;
+  gap: 20px;
+  font-size: 1.2em;
+}
+
+.navbar a {
+  color: rgb(242, 222, 204);
+  text-decoration: none;
+}
+
+.navbar a:visited {
+  color: rgb(242, 222, 204);
+}
+
+.navbar a:hover {
+  color: white;
+}
+
+.navbar a:active {
+  color: white;
+}
+
+a {
+  padding: 0em 1em 0em 1em;
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: 3;
+}
+
+#header-title {
+  color: rgb(242, 222, 204);
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
+  letter-spacing: -1px;
+  line-height: 1;
+  font-size: 3em;
+  line-height: 1.5;
+  transform: skew(-10deg);
+  text-transform: uppercase;
+}
+
+#header-title a {
+  text-decoration: none;
+  color: rgb(242, 222, 204);
+}
+
+#header-title a:visited {
+  color: rgb(242, 222, 204);
+}
+
+#content {
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.landing-container {
+  position: relative;
+  width: 97%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(166, 135, 79);
+  border-radius: 20px;
+  margin: 1em;
+}
+
+.slide {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  background-size: cover;
+  background-position: center;
+  transition: opacity 1s ease-in-out;
+  opacity: 0;
+  z-index: 1;
+  border-radius: 20px;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  color: white;
+}
+
+#title {
+  color: rgb(242, 222, 204);
+  font-size: 4rem;
+  font-weight: 800;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  margin-left: 1.2rem;
+  letter-spacing: -1px;
+  line-height: 1.5;
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn-main {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 1.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-main:hover {
+  background-color: #555;
+}
+
+.profile-container {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  overflow: hidden;
+  background-color: rgb(250, 247, 237);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.profile-header .title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.profile-header .create-recipe-button {
+  padding: 0.5rem 1rem;
+  background-color: rgb(166, 135, 79);
+  color: rgb(242, 222, 204);
+  border: 1px solid rgb(242, 222, 204);
+  border-radius: 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.profile-header .create-recipe-button:hover {
+  background-color: rgb(242, 222, 204);
+  color: rgb(166, 135, 79);
+}
+
+.profile-tabs {
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  margin-left: 1rem;
+}
+
+.profile-tabs .tab-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: rgb(250, 247, 237);
+  color: rgb(166, 135, 79);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin: 0 0.5rem;
+}
+
+.profile-tabs .tab-button.active {
+  background-color: rgb(250, 247, 237);
+  font-size: 1.5em;
+}
+
+.profile-tabs .tab-button:hover {
+  background-color: rgb(213, 197, 161);
+  color: rgb(213, 197, 161);
+}
+
+.profile-content {
+  width: 100%;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.profile-content .profile-section {
+  font-size: 1.2rem;
+  color: rgb(213, 197, 161);
+}
+
+.sign-container {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  overflow: hidden;
+  background-color: rgb(250, 247, 237);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+}
+
+#log-head {
+  color: rgb(166, 135, 79);
+  font-size: 3em;
+}
+
+#sign-head {
+  color: rgb(166, 135, 79);
+  font-size: 3em;
+}
+
+.sign-up-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(213, 197, 161);
+  padding: 5em;
+  border-radius: 15px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(213, 197, 161);
+  padding: 7.5em 5em 7.5em 5em;
+  border-radius: 15px;
+}
+
+.input {
+  padding: 0.5em 1em 0.5em 1em;
+  margin: 1em;
+  border-radius: 15px;
+  border: 5px solid rgb(242, 222, 204);
+  font-size: 1em;
+  color: rgb(166, 135, 79);
+}
+
+#log-btn {
+  font-size: 1em;
+  padding: 0.4em 2em 0.4em 2em;
+  border-radius: 15px;
+  border: 2px solid rgb(166, 135, 79);
+  background-color: rgb(213, 197, 161);
+  color: rgb(166, 135, 79);
+}
+
+#log-btn:hover {
+  background-color: rgb(166, 135, 79);
+  color: rgb(213, 197, 161);
+}
+
+#sign-btn {
+  font-size: 1em;
+  padding: 0.4em 2em 0.4em 2em;
+  border-radius: 15px;
+  border: 2px solid rgb(166, 135, 79);
+  background-color: rgb(213, 197, 161);
+  color: rgb(166, 135, 79);
+}
+
+#sign-btn:hover {
+  background-color: rgb(166, 135, 79);
+  color: rgb(213, 197, 161);
+}
+
+#center {
+  text-align: center;
+  color: rgb(242, 222, 204);
+  font-size: 3em;
+}
+
+#ingred {
+  border: 3px solid rgb(213, 197, 161);
+  padding: 0.5em;
+  margin: 0em 5em 0em 5em;
+  border-radius: 20px;
+  font-size: 1em;
+}
+
+#btn {
+  display: flex;
+  justify-content: center;
+}
+
+#add {
+  margin: 1em;
+  padding: 0.5em 3em .5em 3em;
+  border: 2px solid rgb(242, 222, 204);
+  border-radius: 20px;
+  background-color: rgb(166, 135, 79);
+  color: rgb(242, 222, 204);
+}
+
+#add:hover {
+  background-color: rgb(242, 222, 204);
+  color: rgb(166, 135, 79);
+}
+
+
+
+.fridge-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ingredients-list {
+  max-height: 100px;
+  overflow-y: auto;
+}
+
+.ingredient-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.recipes-section {
+  margin-top: 20px;
+}
+
+.feed-container {
+  background-color: rgb(250, 247, 237);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
